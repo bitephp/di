@@ -1,0 +1,17 @@
+{
+    "name": "bite/di",
+    "description": "Bite PHP Framework - Dependency Injection Container",
+    "type": "library",
+    "license": "MIT",
+    "homepage": "https://bitephp.dev",
+    "keywords": ["php", "di", "dependency-injection", "container"],
+    "require": {
+        "php": ">=8.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bite\\Di\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
